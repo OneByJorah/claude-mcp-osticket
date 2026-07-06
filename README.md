@@ -13,7 +13,7 @@ This is a CLI/backend-only tool. No screenshots available.
 The comprehensive guide includes:
 - Installation instructions
 - Configuration examples
-- All 11 MCP tools with parameters
+- All 12 MCP tools with parameters
 - Troubleshooting guide
 - Best practices & workflows
 
@@ -21,7 +21,7 @@ The comprehensive guide includes:
 
 ```bash
 # 1. Clone repository
-git clone https://github.com/markus-michalski/claude-mcp-osTicket.git ~/.claude/mcp-servers/osticket
+git clone https://github.com/OneByJorah/claude-mcp-osticket.git ~/.claude/mcp-servers/osticket
 
 # 2. Install dependencies
 cd ~/.claude/mcp-servers/osticket
@@ -61,6 +61,9 @@ npm run build
 - `create_subticket_link` - Create parent-child relationship between tickets
 - `unlink_subticket` - Remove parent-child relationship
 
+### Attachment Operations
+- `download_attachment` - Download ticket attachments to local temp files
+
 **Note:** Subticket tools require the [Subticket Manager Plugin](https://github.com/markus-michalski/osticket-plugins/tree/main/subticket-manager) to be installed and active on osTicket.
 
 ## 🔀 Fork Notes
@@ -77,9 +80,12 @@ MIT License - See [LICENSE](./LICENSE) for details
 
 ## 👤 Author
 
-**Markus Michalski**
+**Original Author:** Markus Michalski
 - Website: [markus-michalski.net](https://markus-michalski.net)
 - GitHub: [@markus-michalski](https://github.com/markus-michalski)
+
+**JorahOne Maintainer:** Jhonattan L. Jimenez
+- GitHub: [@OneByJorah](https://github.com/OneByJorah)
 
 ## 🔗 Links
 
