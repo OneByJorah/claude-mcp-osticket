@@ -34,3 +34,6 @@ yarn-error.log*
 
 # Claude Code project instructions
 CLAUDE.md
+
+# Pipeline reports
+reports/
