@@ -25,8 +25,8 @@ If applicable, add screenshots to help explain your problem.
 
 **Environment (please complete the following information):**
 - OS: [e.g. Ubuntu 22.04]
-- Python Version: [e.g. 3.11]
-- Docker Version: [e.g. 24.0]
+- Node.js Version: [e.g. 18.0]
+- npm Version: [e.g. 9.0]
 
 **Additional Context**
 Add any other context about the problem here.
