@@ -2,6 +2,10 @@
 
 **Model Context Protocol Server for osTicket integration in Claude Code** - Manage support tickets directly from your AI assistant.
 
+## 📸 Screenshot
+
+This is a CLI/backend-only tool. No screenshots available.
+
 ## 📖 Documentation
 
 **📚 [Complete Documentation & FAQ](https://faq.markus-michalski.net/en/mcp/osticket)**
@@ -58,6 +62,14 @@ npm run build
 - `unlink_subticket` - Remove parent-child relationship
 
 **Note:** Subticket tools require the [Subticket Manager Plugin](https://github.com/markus-michalski/osticket-plugins/tree/main/subticket-manager) to be installed and active on osTicket.
+
+## 🔀 Fork Notes
+
+This repository is a fork of [markus-michalski/claude-mcp-osTicket](https://github.com/markus-michalski/claude-mcp-osTicket) maintained by **OneByJorah**.
+
+**Changes from upstream:**
+- Added `Dockerfile` for containerized MCP server deployment
+- `.env.example` already present (unchanged)
 
 ## 📄 License
 
