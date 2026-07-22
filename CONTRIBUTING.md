@@ -1,69 +1,41 @@
-# Contributing to osTicket MCP Server
+# Contributing to JorahOne Projects
+
+Thank you for your interest in contributing! This document provides guidelines for contributing to our projects.
+
+## How to Contribute
+
+1. **Fork the Repository** — Create a fork of the project on GitHub.
+2. **Create a Branch** — Create a feature branch from `main`.
+3. **Make Changes** — Implement your changes with clear commit messages.
+4. **Test** — Ensure your changes work correctly.
+5. **Submit a PR** — Open a pull request with a clear description.
 
 ## Development Setup
 
 ```bash
-git clone https://github.com/markus-michalski/claude-mcp-osTicket.git
-cd claude-mcp-osTicket
-npm install
-
-# Configure environment
-cp .env.example .env
-# Edit .env with your osTicket API credentials
-
-# Build TypeScript
-npm run build
+git clone https://github.com/your-username/PROJECT.git
+cd PROJECT
+# Follow project-specific setup instructions
 ```
 
-## Code Style
+## Code Standards
 
-- **Language:** TypeScript (strict mode)
-- **Indentation:** 2 spaces
-- **Linting:** ESLint (`npm run lint`)
-- **Type checking:** `npm run type-check`
-- **Comments:** English
+- Follow existing code style and conventions
+- Write clear, descriptive commit messages
+- Add comments for complex logic
+- Update documentation as needed
 
-## Architecture
+## Pull Request Guidelines
 
-```
-src/
-  index.ts                    # Entry point, MCP server setup
-  infrastructure/
-    http/                     # HTTP client for osTicket API
-  tools/                      # MCP tool implementations
-```
+- Provide a clear PR title and description
+- Reference any related issues
+- Include screenshots for UI changes
+- Ensure all checks pass
 
-### Adding a New MCP Tool
+## Code of Conduct
 
-1. Create the tool handler in `src/tools/`
-2. Register it in `src/index.ts`
-3. Add Zod validation schema for inputs
-4. Use proper tool annotations (`readOnlyHint`, `destructiveHint`, etc.)
+Please review our [Code of Conduct](CODE_OF_CONDUCT.md) before contributing.
 
-## Development Commands
+## Questions?
 
-```bash
-npm run build       # Compile TypeScript
-npm run dev         # Run with tsx (hot reload)
-npm run lint        # ESLint
-npm run type-check  # TypeScript check without emit
-npm run watch       # Compile in watch mode
-```
-
-## Commits
-
-Use [Conventional Commits](https://www.conventionalcommits.org/):
-
-```
-feat: add new MCP tool
-fix: correct a bug
-docs: update documentation
-refactor: restructure code
-```
-
-## Pull Requests
-
-1. Create a feature branch from `main`
-2. Make your changes
-3. Ensure `npm run build` and `npm run lint` pass
-4. Open a PR with a clear description
+Open an issue or contact **info@jorahone.com**.
